@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\meeting-details.cshtml" />
+    <Content Remove="Views\Home\meetings.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\meeting-details.cshtml" />
+    <None Include="Views\Home\meetings.cshtml" />
+  </ItemGroup>
+
+</Project>
